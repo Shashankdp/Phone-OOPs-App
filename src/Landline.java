@@ -3,9 +3,9 @@ import java.sql.SQLOutput;
 public class Landline implements Phone{
 
     //Attributes of landline class
-    String myPhoneNo;
-    boolean isRinging;
-    boolean isPowerOn;
+   private String myPhoneNo;
+    private boolean isRinging;
+    private boolean isPowerOn;
 
     public Landline(String myPhoneNo) {
         this.myPhoneNo = myPhoneNo;
